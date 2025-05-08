@@ -2,7 +2,7 @@ TypeScript is like JavaScript but it help us write better code. Today, I write a
 
 ## 1. Interfaces vs Types in TypeScript
 
-Okay, so TypeScript have two ways to make shapes for our data: **interfaces** and **types**. They look same but they different in some ways. Let me explain like I talk to my friend.
+TypeScript have two ways to make shapes for our data: **interfaces** and **types**. They look same but they different in some ways. Let me explain like I talk to my friend.
 
 ### What is Interface?
 Interface is like a rule for how something should look. For example, if I make a `Person`, I can say it must have a name and age. Like this:
