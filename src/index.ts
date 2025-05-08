@@ -16,8 +16,8 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
  }
  
  class Vehicle {
-    make: string;
-    year: number;
+    private make: string;
+    private year: number;
 
     constructor(make:string, year:number) {
         this.make = make
@@ -31,7 +31,7 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
 
 
 class Car extends Vehicle {
-    model:string
+    private model:string
     
     constructor(make:string, year:number, model:string, ) {
         super(make, year)
@@ -95,3 +95,5 @@ enum Day {
       
     })
   }
+
+
